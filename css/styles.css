@@ -101,9 +101,20 @@ html {
 
 /* Hero-section */
 .hero-section {
-  padding: 167px 0 0 0;
+  padding: 167px 0 195px;
   color: #19191C;
+  background: url(../img/girl.png) no-repeat 125% 100%;
+
 }
+
+
+.bg {
+  position: absolute;
+  bottom: -195px;
+  right: 26px;
+  z-index: -1;
+}
+
 
 .flex {
   display: flex;
@@ -112,10 +123,7 @@ html {
 
 .hero-section__content {
   max-width: 646px;
-  background: url(/img/elipse-1.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 0;
+  background: url(/img/elipse-1.png) no-repeat 100% 100%;
 }
 
 .hero-section__description {
@@ -140,10 +148,61 @@ html {
   margin-top: 8px;
 }
 
+.hero-section__programs {
+  width: 50%;
+  position: relative;
+}
+
+.program-img {
+  position: absolute;
+  top: 84px;
+  left: 120px;
+}
+
+.hero-section__item {
+  list-style: none;
+  padding: 16px 36px;
+  border: 2px solid #19191C;
+  position: absolute;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.invision {
+  top: 66px;
+  right: 0;
+}
+
+.protopie {
+  top: 0;
+  right: 220px;
+}
+
+.miro {
+  top: 74px;
+  left: 100px;
+}
+
+.photoshop {
+  top: 256px;
+  left: 60px;
+}
+
+.figma {
+  bottom: 200px;
+  left: -100px;
+}
+
+.illustrator {
+  bottom: 30px;
+  left: -60px;
+}
+
 /* Footer */
 .footer {
-  background-color: #19191C;
   padding: 59px 0 62px;
+  background-color: #19191C;
 }
 
 .footer-container {
@@ -200,8 +259,6 @@ address a {
   line-height: 22px;
   margin-bottom: 28px;
 }
-
-
 
 /* Copyright */
 .copyright {
