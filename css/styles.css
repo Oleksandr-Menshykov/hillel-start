@@ -25,7 +25,19 @@ html {
 .section-title {
   font-weight: 700;
   font-size: 58px;
-  line-height: 70.19px;
+  line-height: 70px;
+}
+
+.accent {
+  color: #FBFBFC;
+  background-color: #504DEE;
+}
+
+.small-line {
+  width: 254px;
+  height: 4px;
+  background-color: #19191C;
+  margin: 21px 0 18px;
 }
 
 .hero-title-margin {
@@ -272,4 +284,144 @@ address a {
 .copyright a {
   color: #6D6D77;
   text-decoration: none;
+}
+
+/* Designer-section */
+.designer {
+  padding: 168px 0 0 0;
+  background-color: #FBFBFC;
+}
+
+.designer__cols {
+  max-width: 588px;
+  margin-bottom: 168px;
+}
+
+.designer__cols p {
+  color: #6D6D77;
+  margin-top: 28px;
+}
+
+.cols {
+  display: flex;
+  gap: 103px;
+}
+
+.sal {
+  color: #19191C;
+}
+
+.cols__desc {
+  color: #6D6D77;
+}
+
+.designer__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.designer__card {
+  padding: 68px 50px;
+
+}
+
+.designer__card-title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  color: #19191C;
+}
+
+.designer__card-title::after {
+  content: '';
+  display: block;
+  width: 368px;
+  height: 4px;
+  background-color: #19191C;
+  margin: 28px 0 12px;
+}
+
+.designer__card-description {
+  color: #19191C;
+}
+
+.green-card {
+  background-color: #DEEFE4;
+}
+
+.yellow-card {
+  background-color: #F3F3D7;
+}
+
+.rouse-card {
+  background-color: #EFDEEE;
+}
+
+.prices {
+  padding: 168px 171px;
+  background-color: #FBFBFC;
+}
+
+.prices__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 100px;
+}
+
+.prices__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 48px;
+  width: 33%;
+  height: 732px;
+
+}
+
+.prices__card ul li {
+  list-style-type: square;
+  margin-bottom: 22px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 41px;
+  color: #19191C;
+  margin-bottom: 45px;
+}
+
+.card-title--accent {
+  color: #FBFBFC;
+}
+
+.full-price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  color: #6D6D77;
+  margin-bottom: 3px;
+}
+
+.full-price--accent {
+  color: #EFEFF2;
+}
+
+button {
+  padding: 16px 36px;
+  background-color: #19191C;
+  color: #FBFBFC;
+  border: none;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+  cursor: pointer;
+  margin-top: 18px;
+}
+
+.button-accent {
+  background-color: #FBFBFC;
+  color: #504DEE;
 }

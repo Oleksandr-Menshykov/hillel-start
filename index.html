@@ -68,34 +68,42 @@
     </section>
     <section class="designer">
       <div class="container">
-        <h2 class="section-title">Profession UI/UX designer</h2>
-        <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis occaecati cupiditate non provident,
-          similique
-          sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-
-        <div class="salary">
-          <p class="section-title">5 000 $</p>
-          <p>Salary</p>
-          <p>Nam libero tempore, cum soluta nobis est</p>
-        </div>
-        <div class="vacancies">
-          <p class="section-title">4 225</p>
-          <p>Vacancies</p>
-          <p>Vero eos et accusamus</p>
+        <div class="flex">
+          <div class="designer__cols">
+            <h2 class="section-title">Profession UI/UX designer</h2>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis occaecati cupiditate non
+              provident,
+              similique
+              sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+          </div>
+          <div class="cols">
+            <div class="salary">
+              <p class="section-title">5 000 $</p>
+              <p class="sal">Salary</p>
+              <div class="small-line"></div>
+              <p class="cols__desc">Nam libero tempore, cum soluta nobis est</p>
+            </div>
+            <div class="vacancies">
+              <p class="section-title">4 225</p>
+              <p class="sal">Vacancies</p>
+              <div class="small-line"></div>
+              <p class="cols__desc">Vero eos et accusamus</p>
+            </div>
+          </div>
         </div>
         <div class="designer__cards">
-          <div class="designer__card">
+          <div class="designer__card green-card">
             <h3 class="designer__card-title">Portfolio</h3>
             <p class="designer__card-description">You will learn how to create a brand identity on the web and for
               printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma</p>
           </div>
-          <div class="designer__card">
-            <h3 class="esigner__card-title">Internship</h3>
+          <div class="designer__card yellow-card">
+            <h3 class="designer__card-title">Internship</h3>
             <p class="designer__card-description">You will learn how to create a brand identity on the web and for
               printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma</p>
           </div>
-          <div class="designer__card">
-            <h3 class="esigner__card-title">Certificate</h3>
+          <div class="designer__card rouse-card">
+            <h3 class="designer__card-title">Certificate</h3>
             <p class="designer__card-description">You will learn how to create a brand identity on the web and for
               printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma</p>
           </div>
@@ -103,45 +111,57 @@
       </div>
     </section>
     <section class="prices">
-      <h2>Discover Our Prices</h2>
+      <h2 class="section-title">Discover Our Prices</h2>
       <div class="prices__cards">
-        <div class="prices__card">
-          <h3>Base</h3>
-          <ul>
-            <li>Et dolorum fuga et harum quidem rerum</li>
-            <li>Mentors and community support</li>
-            <li>Necessitatibus saepe</li>
-            <li>Ut aut reiciendis</li>
-          </ul>
-          <p>12 000$</p>
-          <p>3 000$</p>
-          <button type="button">Choose</button>
+        <div class="prices__card green-card">
+          <div class="card__content">
+            <h3 class="card-title">Base</h3>
+            <ul class="card__item">
+              <li>Et dolorum fuga et harum quidem rerum</li>
+              <li>Mentors and community support</li>
+              <li>Necessitatibus saepe</li>
+              <li>Ut aut reiciendis</li>
+            </ul>
+          </div>
+          <div class="card__offer">
+            <p class="full-price">12 000$</p>
+            <p class="section-title">3 000$</p>
+            <button type="button">Choose</button>
+          </div>
         </div>
-        <div class="prices__card">
-          <h3>Optimal</h3>
-          <ul>
-            <li>Rerum hic tenetur a sapiente</li>
-            <li>Consectetur, adipisci velit</li>
-            <li>Ut aliquid ex ea commodi consequatur</li>
-            <li>Eum fugiat quo voluptas nulla</li>
-            <li>Illo inventore veritatis et quasi architecto</li>
-          </ul>
-          <p>24 000$</p>
-          <p>6 000$</p>
-          <button type="button">Choose</button>
+        <div class="prices__card accent">
+          <div class="card__content">
+            <h3 class="card-title card-title--accent">Optimal</h3>
+            <ul class="card__item">
+              <li>Rerum hic tenetur a sapiente</li>
+              <li>Consectetur, adipisci velit</li>
+              <li>Ut aliquid ex ea commodi consequatur</li>
+              <li>Eum fugiat quo voluptas nulla</li>
+              <li>Illo inventore veritatis et quasi architecto</li>
+            </ul>
+          </div>
+          <div class="card__offer">
+            <p class="full-price full-price--accent">24 000$</p>
+            <p class="section-title">6 000$</p>
+            <button type="button">Choose</button>
+          </div>
         </div>
-        <div class="prices__card">
-          <h3>Premium</h3>
-          <ul>
-            <li>Ullamco laboris nisi ut</li>
-            <li>Voluptate velit esse cillum</li>
-            <li>Qui in ea voluptate velit esse quam nihil molestiae</li>
-            <li>Necessitatibus saepe eveniet</li>
-            <li>Sunt in culpa qui officia</li>
-          </ul>
-          <p>64 000$</p>
-          <p>18 000$</p>
-          <button type="button">Choose</button>
+        <div class="prices__card green-card">
+          <div class="card__content">
+            <h3 class="card-title">Premium</h3>
+            <ul class="card__item">
+              <li>Ullamco laboris nisi ut</li>
+              <li>Voluptate velit esse cillum</li>
+              <li>Qui in ea voluptate velit esse quam nihil molestiae</li>
+              <li>Necessitatibus saepe eveniet</li>
+              <li>Sunt in culpa qui officia</li>
+            </ul>
+          </div>
+          <div class="card__offer">
+            <p class="full-price">64 000$</p>
+            <p class="section-title">18 000$</p>
+            <button type="button">Choose</button>
+          </div>
         </div>
       </div>
     </section>
